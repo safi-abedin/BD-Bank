@@ -1,0 +1,49 @@
+body {
+    padding: 150px;
+}
+
+.highlighter {
+    color: rgb(94, 129, 41);
+}
+
+.login-form {
+    margin-top: 40px;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+#transaction-area {
+    display: none;
+}
+
+.status {
+    box-shadow: 5px 5px 10px none;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    margin: 35px;
+}
+
+.deposite {
+    background-color: rgb(171, 206, 230);
+}
+
+.balance {
+    background-color: rgb(224, 255, 47);
+}
+
+.withdraw {
+    background-color: rgb(212, 100, 223);
+}
+
+.cash-in {
+    display: none;
+}
+
+.add-money {
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 15px;
+}
