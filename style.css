@@ -12,9 +12,34 @@ body {
     padding: 40px;
     box-shadow: 5px 5px 10px lightgray;
 }
+.instruction{
+    border: lightgrey;
+}
 
 #transaction-area {
     display: none;
+}
+
+.entry-form{
+        width: 800px;
+        height: auto;
+        background-color: rgb(158, 244, 247);
+        margin-top: 5px;
+        border-radius: 15px;
+        padding: 40px;
+        box-shadow: 5px 5px 10px lightgray;
+}
+.small {
+    transform: scale(0.85, 0.85);
+    -ms-transform: scale(0.8, 0.8); /* IE 9 */
+    -webkit-transform: scale(0.85, 0.85); /* Safari and Chrome */
+    -o-transform: scale(0.8, 0.8); /* Opera */
+    -moz-transform: scale(0.8, 0.8); /* Firefox */
+  }
+
+.head{
+    margin-bottom: 15px;
+    border-radius: black;
 }
 
 .status {
