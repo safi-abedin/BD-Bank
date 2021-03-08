@@ -1,0 +1,19 @@
+.logo{
+    color:  rgb(107, 162, 167);
+}
+
+.featr{
+    color: black;
+}
+.main{
+    background-image: url('C:\xampp\htdocs\New\BD-Bank\back.jpg');
+}
+.bgimage{
+    width: 100%;
+    height: 50%;
+}
+
+.divide{
+    background-image: linear-gradient(45deg, rgb(195, 221, 233), white);
+    padding: 3%;
+}

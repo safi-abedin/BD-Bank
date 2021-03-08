@@ -19,30 +19,30 @@
                 <h6>Let us know how to help you</h6>
             </div>
             <div>
-                <form action="" method="get">
+                <form action="appoint.php" method="POST">
                     <label for="fullname">Full name:</label>
                     <div class="row">
                         <div class="col-md-6">
-                        <input type="text" id="fname" name="fname" class="form-control">
-                        <label for="fname">First name</label>
+                        <input type="text" id="Fname" name="Fname"  class="form-control">
+                        <label for="Fname">First name</label>
                         </div>
                         <div class="col-md-6">
-                            <input type="text" id="lname" name="lname" class="form-control">
-                            <label for="lname">Last name</label>
+                            <input type="text" id="Lname" name="Lname" v class="form-control">
+                            <label for="Lname">Last name</label>
                         </div>
                     </div>
                     <br>
                     <div class="row">
                         <div class="col-md-6">
                             <label for="pnumber">Phone number:</label>
-                            <input type="text" class="form-control" placeholder="Enter Your number">
+                            <input type="text" class="form-control" id="Pnumber" name="Pnumber" value="" placeholder="Enter Your number">
                         </div>
                     </div>
                     <br>
                     <div class="row">
                         <div class="col-md-6">
                             <label for="pnumber">E-mail:</label>
-                            <input type="text" class="form-control" placeholder="ex:myname@example.com">
+                            <input type="text" class="form-control" id="Email" name="Email" placeholder="ex:myname@example.com">
                         </div>
                     </div>
                     <br>
@@ -51,18 +51,18 @@
                         <label for="pnumber">Address:</label>
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text"  class="form-control">
-                                <label for="stree address">stree address</label>
+                                <input type="text"  class="form-control" id="Street" name="Street">
+                                <label for="street address">street address</label>
                             </div>
                         </div>
                         </div>
                         <div class="row">
                             <div class="col-md-3">
-                                <input type="text"  class="form-control">
+                                <input type="text"  class="form-control" id="City" name="City">
                                 <label for="city">city</label>
                             </div>
                             <div class="col-md-3">
-                                <input type="text"  class="form-control">
+                                <input type="text"  class="form-control" id="Zip" name="Zip">
                                 <label for="zip">zip</label>
                             </div>
                         </div>
@@ -72,12 +72,9 @@
                         <h6>What is your gender?</h6>
                         <div class="row">
                             <div class="col-md-4">
-                                <input type="radio">
-                                <label for="">male</label>
+                                <input type="text" class="form-control" name="Gender" placeholder="male or female" value="">
                             </div>
                             <div class="col-md-4">      
-                                <input type="radio">
-                                <label for="">female</label>
                             </div>
                         </div>
                     </div>
@@ -88,163 +85,49 @@
                         </h6>
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="ex:72">
+                                <input type="text" class="form-control" placeholder="ex:72" id="Age" name="Age">
                             </div>
                         </div>
                     </div>
                     <br>
                     <div>
-                        <h6>what days work best for you?</h6>
+                        <h6>what day work best for you?</h6>
                         <div class="row">
-                            <div class="col-md-4">
-                                <input type="checkbox" id="day" name="saturday" value="saturday">
-                                <label for="day">Saturday</label>
-                            </div>
-                            <div class="col-md-4">
-                                <input type="checkbox" id="day" name="sunurday" value="sunday">
-                                <label for="day">Sunday</label>
-                            </div>
-                            <div class="col-md-4">
-                                <input type="checkbox" id="day" name="monday" value="monday">
-                                <label for="day">Monday</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <input type="checkbox" id="day" name="Tuesday" value="Tuesday">
-                                <label for="day">Tuesday</label>
-                            </div>
-                            <div class="col-md-4">
-                                <input type="checkbox" id="day" name="Wednesday" value="Wednesday">
-                                <label for="day">Wednesday</label>
-                            </div>
-                            <div class="col-md-4">
-                                <input type="checkbox" id="day" name="Thursday" value="Thursday">
-                                <label for="day">Thursday</label>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="example: Sunday" id="" name="Day">
                             </div>
                         </div>
                     </div>
                     <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6><label for="pnumber">In which date you want Appointment?</label></h6> 
+                            <input type="text" class="form-control" placeholder="DD/MM/YY" id="Date" name="Date">
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
                     <div>
-                        <h6>which time  best for you?</h6>
                         <div class="row">
-                            <div class="col-md-4">
-                                <input type="checkbox" id="time" name="time" value="time">
-                                <label for="time">Morning</label>
-                            </div>
-                            <div class="col-md-4">
-                                <input type="checkbox" id="time" name="time" value="time">
-                                <label for="time">Afternoon</label>
-                            </div>
-                            <div class="col-md-4">
-                                <input type="checkbox" id="time" name="time" value="time">
-                                <label for="time">Evening</label>
+                            <div class="col-md-6">
+                                <h6><label for="">In which time you want Appointment?</label></h6> 
+                                <input type="text" class="form-control" placeholder="ex:Afternoon" id="" name="Time">
                             </div>
                         </div>
                     </div>
                     <br>
                     <br>
                     <div>
-                        <h6>Check the conditions that apply to you or to any members of your immediate relatives:</h6>
+                        <h6> Which doctor you want to appoint?</h6>
                         <div class="row">
-                            <div class="col-md-4">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Asthma</label>
-                            </div>
-                            <div class="col-md-4">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for=""> Cancer</label>
-                            </div>
-                            <div class="col-md-4">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for=""> Cardiac disease</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for=""> Diabetes</label>
-                            </div>
-                            <div class="col-md-3">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Hypertension</label>
-                            </div>
-                            <div class="col-md-3">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Psychiatric</label>
-                            </div>
-                            <div class="col-md-3">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Epilepsy</label>
-                            </div>
+                            <input type="text" class="form-control" placeholder="ex:Dr. Rofikul Islam" id="" name="doctor">
                         </div>
                     </div>
                     <br>
-                    <div>
-                        <h6>Check the symptoms that you're currently experiencing:</h6>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Chest pain</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Respiratory</label>
-                            </div>
-                            <div class="col-md-3">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Cardiac disease</label>      
-                            </div>
-                            <div class="col-md-3">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Cardiovascular</label>
-                            </div>
-                            <div class="col-md-3">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Hematological</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Lymphatic</label>
-                            </div>
-                            <div class="col-md-3"><input type="checkbox" id="" name="" value="">
-                                <label for="">Neurological</label>
-                            </div>
-                            <div class="col-md-3"><input type="checkbox" id="" name="" value="">
-                                <label for="">Psychiatric</label>
-                            </div>
-                            <div class="col-md-3">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Gastrointestinal</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Genitourinary</label>
-                            </div>
-                            <div class="col-md-3">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for=""> Weight gain</label>
-                            </div>
-                            <div class="col-md-3">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Weight loss</label>
-                            </div>
-                            <div class="col-md-3">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Musculoskeletal</label>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="d-grid gap-2">
-                        <button class="btn btn-light" type="button">Submit form</button>
-                      </div>
+                    
+                    <input type="submit" id="appoint" class="btn btn btn-light" name="submit" value="Submit">
                   </form>
             </div>
         </div>
@@ -257,3 +140,5 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
+
+
