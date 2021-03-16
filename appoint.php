@@ -45,7 +45,7 @@ if ($conn->query($sql) === TRUE) {
    </style>
     <body>
         <div >
-        <h1 >Hey Sir, $Fname $Lname your appointment is taken..</h1>
+        <h1 >Hey $Fname $Lname your appointment is taken..</h1>
         <h6>Date:$Date</h6>
         <h6>Day:$Day</h6>
         <h6>Doctor Name: $doctor</h6>

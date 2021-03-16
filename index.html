@@ -1,42 +1,85 @@
-
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Health Care</title>
-</head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css">
+    <title>Healthcare Service</title>
+  </head>
+  <body>
+    
 
-<body>
-        <div id="login-area">
-    <form action="connection.php" method="POST">
-        <h1 class="text-center "> Welcome to Our <span class="highlighter">Health Care Service</span></h1>
-        <div class="login-form ">
-            <h5>E-mail</h5>
-            <input type="text" class="form-control" id="Email" name="Email" placeholder="Enter Your E-mail">
-            <br>
-            <br>
-            <h5>Password</h5>
-            <input type="password" class="form-control" id="Pass" name="Pass" placeholder="Enter Your Password">
-            <br>
-             <input type="submit" id="login" class="btn btn-outline-primary" name="submit" value="Sign Up">
-        </div>
+
+    <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand"><span class="logo">Healthcare Service</span></a>
+        <form class="form-inline">
+            <a class="nav-item nav-link active" href="#"><span class="featr">Home</span> <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="show.php"><span class="featr">Show Patients</span> </a>
         </form>
-    </div>
+        <form class="form-inline" action="search.php" method="GET">
+            <input class="form-control mr-sm-2" type="search" name="search" placeholder="search" aria-label="search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="submit">Search</button>
+          </form>
+      </nav>
+
+      <div class="">
+        <div class="row">
+            <div class="col-md-4 divide">
+                <h1>Your health....</h1>
+                <h1>Take care...</h1>
+                <p>Empowering people with our digitized health and wellness products and services.</p>
+                <h6>sing up for appointment</h6>
+                <br>
+                <a href="index.html"><button class="btn btn-info">sing up</button></a>
+            </div>
+            <div class="col-md-8">
+                <img src="back.jpg" alt="">
+            </div>          
+      </div>
+      <div>
+        <h4 style="color:  rgb(107, 162, 167); text-align: center;">Our Doctors.</h4>
+        <table class="table table-hover table-info">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">speaciality</th>
+              <th scope="col">Degree.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>DR. Rafikul alam</td>
+              <td>Heart</td>
+              <td>F.C.P.S</td>
+            </tr>
+            <tr>
+              <td>DR. Moniruzzaman</td>
+              <td>skin</td>
+              <td>M.B.B.S,F.C.P.S</td>
+            </tr>
+            <tr>
+              <td>Dr. Alamgir</td>
+              <td>Gastro liver</td>
+              <td>M.B.B.S</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Why us</h1>
+          <p>We assure you we wil give you the best service...</p>
+          <p class="lead">We are building a bridge between healthcare seekers and health service providers. We envision an overhaul in the existing but outdated healthcare landscape and make it more people-centric..</p>
+        </div>
+      </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
-</body>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
-
-

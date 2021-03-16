@@ -25,6 +25,7 @@
                 <h4>Address: '.$row[5].', '.$row[6].','.$row[7].'.</h4>
                 <h4>Gender : '.$row[8].'. </h4>
                 <h4>Age : '.$row[9].' . </h4>
+                <a href="delete.php?Fname='.$row[1].'">delete information</a>
                 </div>
             </body>
             </html>';
